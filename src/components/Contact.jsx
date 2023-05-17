@@ -12,8 +12,29 @@ const Contact = () => {
   const [form, setform] = useState({ name: '', email: '', message: ''})
   const [loading, setloading] = useState(false)
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+
+    setform({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setloading(true)
+
+    emailjs.send(
+      'service_aryo2ab',
+      'template_o2kdkgm',
+      {
+        from_name: form.name,
+        to_name: 'Oscar',
+        from_email: form.email,
+        to_email: 'oscar.nunezcaba@gmail.com',
+        message: form.message
+      },
+      'chFT0ArMtIG3ZXEYa'
+    )
+  }
 
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

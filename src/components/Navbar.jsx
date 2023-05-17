@@ -22,8 +22,8 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' /><p className='text-white text-[18px] font-bold cursor-pointer flex'>Oscar &nbsp; 
-          <span className='sm:block hidden'> Nunez</span></p>
+          <img src={logo} alt="logo" className='w-9 h-9 object-contain' /><p className='text-white text-[18px] font-bold cursor-pointer flex'>Oscar Nunez &nbsp; 
+          <span className='sm:block hidden' style={{ color: 'whitesmoke'}}> | Software Engineer </span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

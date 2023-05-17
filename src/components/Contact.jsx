@@ -9,13 +9,13 @@ import { slideIn } from "../utils/motion"
 
 const Contact = () => {
   const formRef = useRef()
-  const [form, setform] = useState({ name: '', email: '', message: ''})
+  const [form, setForm] = useState({ name: '', email: '', message: ''})
   const [loading, setloading] = useState(false)
 
   const handleChange = (e) => {
     const { name, value } = e.target
 
-    setform({ ...form, [name]: value })
+    setForm({ ...form, [name]: value })
   }
 
   const handleSubmit = (e) => {
@@ -34,6 +34,22 @@ const Contact = () => {
       },
       'chFT0ArMtIG3ZXEYa'
     )
+    .then(() => {
+      setloading(false)
+      alert('Thank you. I will get back to you as soon as possible.')
+      
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+    }, (error) => {
+      setloading(false)
+
+      console.log(error)
+
+      alert('Something went wrong.')
+    })
   }
 
   return (

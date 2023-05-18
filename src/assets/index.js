@@ -28,9 +28,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import customaize from "./customaize.png";
+import jobplay from "./jobplay.png";
+import flavorite from "./flavorite.png"
+import pix from "./pix.png";
+import tictacts from "./tictacts.png"
 
 export {
   logo,
@@ -58,9 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  customaize,
+  jobplay,
   profilephoto,
-  resume
+  resume,
+  flavorite,
+  pix,
+  tictacts
 };

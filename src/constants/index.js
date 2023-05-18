@@ -19,10 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  customaize,
+  jobplay,
+  pix,
   threejs,
+  flavorite,
+  tictacts
 } from "../assets";
 
 export const navLinks = [
@@ -198,67 +200,114 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CustomAIze",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "MERN stack application that combines the power of AI with stunning 3D graphics to revolutionize T-shirt customization.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "threejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: customaize,
+    source_code_link: "https://github.com/oscarnunez1/customAIze",
+    demo_link: "https://customaize.vercel.app/"
   },
   {
-    name: "Job IT",
+    name: "JobPlay",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Responsive web application that gamifies the job search and skill development process, allowing users to track job applications, visualize career progression, and expand professional networks.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "redux",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: jobplay,
+    source_code_link: "https://github.com/luisdaniel0/Jobplay",
+    demo_link: "https://job-play.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Flavorite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "PERN stack web application using TypeScript that lets users manage their favorite food items with create, view, update, and delete functionalities. Users can sign up, log in, personalize their account, and explore food items shared by other users.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: flavorite,
+    source_code_link: "https://github.com/oscarnunez1/flavorite-front",
+    demo_link: "https://flavorite.netlify.app/"
+  },
+  {
+    name: "Pix",
+    description:
+      "Full CRUD web application that serves as a collaborative platform for music enthusiasts, enabling them to ask questions, receive feedback, and connect with others in the industry. The application also offers a repository for knowledge sharing and accessing lyrics as quotes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "green-text-gradient",
       },
+    ],
+    image: pix,
+    source_code_link: "https://github.com/CaptMerica/pix-front-end",
+    demo_link: "https://pix-tritonic.netlify.app/"
+  },
+  {
+    name: "Tic-Tac-TypeScript",
+    description:
+      "Web game developed in TypeScript, recreating the classic two-player game with a modern and responsive design.",
+    tags: [
       {
         name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
         color: "pink-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tictacts,
+    source_code_link: "https://github.com/CaptMerica/pix-front-end",
+    demo_link: "https://pix-tritonic.netlify.app/"
   },
 ];
 

@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import profilephoto from "./profilephoto.jpeg"
+import resume from "./oscar_nunez_resume.pdf"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  profilephoto
+  profilephoto,
+  resume
 };

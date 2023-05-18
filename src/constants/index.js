@@ -262,4 +262,28 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const links = [
+  {
+    name: 'Github',
+    url: 'https://github.com/oscarnunez1',
+    icon: '/src/assets/github.png',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/oscarnunez34/',
+    icon: '/src/assets/linkedin.svg',
+  },
+  {
+    name: 'Twitter',
+    url: 'https://twitter.com/OscarInTech',
+    icon: '/src/assets/tech/twitter.svg',
+  },
+  {
+    name: 'Resume',
+    url: '/src/assets/oscar_nunez_resume.pdf',
+    icon: '/src/assets/logo.svg',
+  },
+];
+
+
+export { services, technologies, experiences, testimonials, projects, links };

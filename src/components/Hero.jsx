@@ -15,14 +15,14 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Oscar</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Lorem ipsum dolor sit amet <br className='sm:block hidden'/> consectetur adipiscing elit.
+            A creative and innovative Software Engineer <br className='sm:block hidden'/> with a passion for solving complex problems.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -39,8 +39,7 @@ const Hero = () => {
 
           </div>
         </a>
-
-      </div>
+      </div> */}
     </section>
   )
 }

@@ -13,8 +13,6 @@ const ServiceCard = ({ index, title, icon}) => {
       <motion.div
         variants={fadeIn('right', 'spring', 0.5 * index * 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow card'
-        // animate={{ x: 50 }}
-        // transition={{ type: 'spring', stiffness: 100 }}
       >
         <div
           options={{
@@ -54,7 +52,28 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a full-stack software engineer and a proud graduate of General Assembly's Software Engineering Immersive. My journey in the tech field has been fueled by a blend of analytical thinking, attention to detail, and a creative spirit that loves to innovate.
+        As a full-stack software engineer and General Assembly alumnus, my career in technology is driven by an unyielding passion for creative innovation, an analytical mindset, and a meticulous eye for detail.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >        
+        My multifaceted experience in software development has honed my proficiency in building cutting-edge applications. I pride myself on my adaptability and rapid learning—traits which I consider instrumental in the ever-evolving landscape of technology.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >        
+        In addition to my professional endeavors, I maintain a rich array of interests that span from photography and drone piloting, to architecture-centric writing and guitar playing, not forgetting my zest for travel. By harmonizing my work-life integration, I channel this diverse creativity into my software engineering practice.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >        
+        If you're in search of a dynamic contributor who can enrich your team with diverse skills and bring innovative solutions, I'd be thrilled to discuss how my abilities can contribute to your organization's goals. Let's collaborate to shape the future of technology and create a lasting impact together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

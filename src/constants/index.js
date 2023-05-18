@@ -13,8 +13,8 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  bootstrap,
+  postgresql,
   meta,
   starbucks,
   tesla,
@@ -24,7 +24,9 @@ import {
   pix,
   threejs,
   flavorite,
-  tictacts
+  tictacts,
+  sequelize,
+  express
 } from "../assets";
 
 export const navLinks = [
@@ -107,13 +109,13 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: "Sequelize",
+    icon: sequelize,
+  }
 ];
 
 const experiences = [

@@ -1,14 +1,14 @@
 import { motion } from "framer-motion"
-import { textVariant } from "../utils/motion"
+import { fadeIn, textVariant } from "../utils/motion"
 import { styles } from "../styles"
 import { BallCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { technologies } from "../constants"
 
-const Tech = () => {
+const Tech = ({ index }) => {
   return (
     <>
-      <motion.div  variants={textVariant()}>
+      <motion.div  variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <p className={styles.sectionSubText}>
           Languages, Frameworks, & Libraries
         </p>

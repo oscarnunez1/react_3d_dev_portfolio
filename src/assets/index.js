@@ -25,10 +25,10 @@ import threejs from "./tech/threejs.svg";
 import sequelize from "./tech/sequelize.svg"
 import express from "./tech/express.svg"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import skyalign from "./company/skyalign.png";
+import yimby from "./company/yimby.png";
+import generalassembly from "./company/generalassembly.png";
+import bwd from "./company/bluewaterdrones.png";
 
 import customaize from "./customaize.png";
 import jobplay from "./jobplay.png";
@@ -58,10 +58,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  skyalign,
+  yimby,
+  generalassembly,
+  bwd,
   customaize,
   jobplay,
   profilephoto,

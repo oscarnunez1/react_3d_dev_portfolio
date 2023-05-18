@@ -19,7 +19,7 @@ const ExperienceCard = ({ experience }) => (
         <img 
           src={experience.icon}
           alt={experience.company_name}
-          className='w-[60] h-[60%] object-contain'
+          className='w-full h-full object-fill'
         />
       </div>
     }
@@ -29,6 +29,16 @@ const ExperienceCard = ({ experience }) => (
       <p className="text-secondary text-[16px] font-semibold">
         {experience.company_name}
       </p>
+      {experience.link && (
+        <a
+          href={experience.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-300 text-sm"
+        >
+          View my editorial works
+        </a>
+      )}
     </div>
 
     <ul className="mt-5 list-disc ml-5 space-y-2">
@@ -49,7 +59,7 @@ const Experience = () => {
     <>
       <motion.div  variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          What I have done so far
+          Where I have worked so f
         </p>
         <h2 className={styles.sectionHeadText}>
           Work Experience.

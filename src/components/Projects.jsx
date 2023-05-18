@@ -85,7 +85,7 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          Feel free to delve into my projects, and reach out if you're interested in collaboration, or simply wish to chat about the infinite possibilities that technology holds. Let's create something extraordinary together!
+          Explore the diverse array of projects I've crafted with passion, skill, and an insatiable curiosity for innovation. Each project encapsulates my professional journey and serves as a testament to my dedication to cutting-edge technology. Feel free to interact with the demos, inspect the repositories, or even run the code locally to gain insights into my expertise.
         </motion.p>
       </div>
 

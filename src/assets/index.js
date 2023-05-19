@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import profilephoto from "./profilephoto.jpeg"
 import resume from "./oscar_nunez_resume.pdf"
+import demo from "./demo.png"
 
 import css from "./tech/css.png";
 import postgresql from "./tech/postgresql.svg";
@@ -72,5 +73,6 @@ export {
   tictacts,
   sequelize,
   express,
-  tmobile
+  tmobile,
+  demo
 };

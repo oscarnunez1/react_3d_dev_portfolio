@@ -52,7 +52,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{ position: [20, 3, 5], fov: 40 }}
+      camera={{ position: [20, 4, 5], fov: 40 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -66,7 +66,7 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas> 
-  )
+)
 }
 
 export default ComputersCanvas

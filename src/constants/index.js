@@ -25,17 +25,17 @@ import {
   flavorite,
   tictacts,
   sequelize,
-  tmobile
+  tmobile,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "about",
+    title: "About",
   },
   {
     id: "contact",

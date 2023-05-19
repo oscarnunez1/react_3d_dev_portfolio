@@ -25,6 +25,7 @@ import {
   flavorite,
   tictacts,
   sequelize,
+  tmobile
 } from "../assets";
 
 export const navLinks = [
@@ -165,6 +166,18 @@ const experiences = [
       "Successfully founded and operate own LLC, demonstrating entrepreneurial initiative and management skills.",
       "Produceing high-quality images and footage of construction sites and developments, adhering to client specifications.",
       "Providing detailed visual documentation for stakeholders such as developers and architects, utilizing technical skills and precision.",
+    ],
+  },
+  {
+    title: "Mobile Expert",
+    company_name: "T-Mobile",
+    icon: tmobile,
+    iconBg: "#FFFFFF",
+    date: "Oct 2011 - Oct 2022",
+    points: [
+      "Assisted customers with their mobile wireless needs, facilitating their shopping journey across different platforms (online, Customer Care, or in-store).",
+      "Utilized digital tools in interactions and onboarding to demonstrate the benefits of T-Mobile's expanding coverage and services.",
+      "Established relationships and partnered with T-Mobile employees across channels, including business and customer service.",
     ],
   },
 ];

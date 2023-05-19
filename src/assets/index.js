@@ -29,6 +29,7 @@ import skyalign from "./company/skyalign.png";
 import yimby from "./company/yimby.png";
 import generalassembly from "./company/generalassembly.png";
 import bwd from "./company/bluewaterdrones.png";
+import tmobile from "./company/tmobile.png"
 
 import customaize from "./customaize.png";
 import jobplay from "./jobplay.png";
@@ -70,5 +71,6 @@ export {
   pix,
   tictacts,
   sequelize,
-  express
+  express,
+  tmobile
 };

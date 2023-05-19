@@ -34,9 +34,9 @@ const ExperienceCard = ({ experience }) => (
           href={experience.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-purple-300 text-sm"
+          className="text-purple-400 text-sm border px-1 py-1 rounded-sm"
         >
-          View my editorial works
+          View my works
         </a>
       )}
     </div>
@@ -59,7 +59,7 @@ const Experience = () => {
     <>
       <motion.div  variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Where I have worked so f
+          Where I have worked so far
         </p>
         <h2 className={styles.sectionHeadText}>
           Work Experience.

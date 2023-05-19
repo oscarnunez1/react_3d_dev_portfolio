@@ -138,13 +138,14 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Aug 2022 - Present",
     points: [
-      "Developing and executing social media strategies to increase engagement and grow the company's online presence.",
+      "Developing social media strategies and writing content to increase engagement and grow the company's online presence.",
       "Analyzing data to make informed decisions on social media content and engagement.",
       "Utilizing drone technology to capture aerial footage of construction sites, leveraging technical expertise to contribute to project progress updates and collaborate with cross-functional teams."
     ],
+    link: "https://www.instagram.com/blue_water_drones/"
   },
   {
-    title: "Writer",
+    title: "Journalist",
     company_name: "YIMBY",
     icon: yimby,
     iconBg: "#FFFFFF",
@@ -185,27 +186,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Throughout my time working with Oscar, he has always been such a pleasure. He is communicative, organized, thoughtful, creative, dedicated and passionate.",
+    name: "Skye Dodd",
+    designation: "Senior Admissions Specialist",
+    company: "General Assembly",
+    image: "https://media.licdn.com/dms/image/D4E03AQGq0V9Jdsuj6w/profile-displayphoto-shrink_800_800/0/1671804915736?e=1689811200&v=beta&t=B3VFQCOS7diRZ9GPbmCu0IrAXhS55KXlZQTekVDA60s",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I highly recommend Oscar for any programming job. He possesses exceptional communication skills and is a talented programmer with an impressive portfolio.",
+    name: "Waldo Guevara",
+    designation: "President and Founder",
+    company: "Inti Technology",
+    image: "https://media.licdn.com/dms/image/C4E03AQH-vbdMte6JTQ/profile-displayphoto-shrink_800_800/0/1571714074958?e=1689811200&v=beta&t=kbuWyDCHy05BV1qtFAzAfzxD6TZztWiV6xdpXwUHyyM",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I have no doubt that Oscar would be a valuable addition to any team looking for a skilled and dedicated programmer.",
+    name: "Oniel Rosario",
+    designation: "iOS Engineer",
+    company: "Ibotta, Inc.",
+    image: "https://media.licdn.com/dms/image/C4E03AQELILZgIGpjTw/profile-displayphoto-shrink_400_400/0/1542298483017?e=1689811200&v=beta&t=KlvV5NgOKPxW8oxV3iBceh-7q-DYIOmqFuIc6Mft8jI",
+  },
+  {
+    testimonial:
+      "I have had the pleasure of working with Oscar on two projects, and I can say with confidence that he is an exceptional problem solver and an outstanding teammate.",
+    name: "Patrick Mazara",
+    designation: "Software Engineering Fellow",
+    company: "General Assembly",
+    image: "https://media.licdn.com/dms/image/D4D35AQErEqDAQR8G5g/profile-framedphoto-shrink_400_400/0/1682018631936?e=1685131200&v=beta&t=KXAiXOlg4-nDxijzbbIb64S1ygbVm33ywLRPAIEa5rs",
   },
 ];
 

@@ -43,25 +43,6 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Software Engineer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
 const technologies = [
   {
     name: "HTML 5",
@@ -355,4 +336,4 @@ const links = [
 ];
 
 
-export { services, technologies, experiences, testimonials, projects, links };
+export { technologies, experiences, testimonials, projects, links };

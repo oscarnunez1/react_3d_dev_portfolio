@@ -52,8 +52,9 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{ position: [22, 4, 5], fov: 40 }}
+      camera={{ position: [22, 4, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      className='mt-5'
     >
       <Suspense fallback={<CanvasLoader />}>
       {!isMobile && (

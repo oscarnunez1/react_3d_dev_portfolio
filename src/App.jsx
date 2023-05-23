@@ -9,8 +9,8 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover">
           <Navbar />
           <Hero />
-          <Projects />
         </div>
+        <Projects />
         <Tech />
         <Experience />
         <About />

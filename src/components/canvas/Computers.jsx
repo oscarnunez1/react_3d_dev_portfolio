@@ -52,18 +52,18 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{ position: [22, 4, 5], fov: 25 }}
+      camera={{ position: [22, 4, 5], fov: 30 }}
       gl={{ preserveDrawingBuffer: true }}
       className='mt-5'
     >
       <Suspense fallback={<CanvasLoader />}>
-      {!isMobile && (
+      {/* {!isMobile && (
         <OrbitControls 
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-      )}
+      )} */}
         <Computers isMobile={isMobile} />
       </Suspense>
 

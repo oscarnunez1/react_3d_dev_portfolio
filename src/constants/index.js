@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -26,6 +22,10 @@ import {
   tictacts,
   sequelize,
   tmobile,
+  github,
+  linkedin,
+  twitter,
+  logo
 } from "../assets";
 
 export const navLinks = [
@@ -316,22 +316,22 @@ const links = [
   {
     name: 'Github',
     url: 'https://github.com/oscarnunez1',
-    icon: '/src/assets/github.png',
+    icon: github,
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/oscarnunez34/',
-    icon: '/src/assets/linkedin.svg',
+    icon: linkedin,
   },
   {
     name: 'Twitter',
     url: 'https://twitter.com/OscarInTech',
-    icon: '/src/assets/tech/twitter.svg',
+    icon: twitter,
   },
   {
     name: 'Resume',
     url: '/src/assets/oscar_nunez_resume.pdf',
-    icon: '/src/assets/logo.svg',
+    icon: logo
   },
 ];
 

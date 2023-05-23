@@ -3,12 +3,16 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import profilephoto from "./profilephoto.jpeg"
 import resume from "./oscar_nunez_resume.pdf"
 import demo from "./demo.png"
+
+import github from "./github.png";
+import twitter from "./tech/twitter.svg"
+import linkedin from "./linkedin.svg"
+
 
 import css from "./tech/css.png";
 import postgresql from "./tech/postgresql.svg";
@@ -74,5 +78,7 @@ export {
   sequelize,
   express,
   tmobile,
-  demo
+  demo,
+  twitter,
+  linkedin
 };

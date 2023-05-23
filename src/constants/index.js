@@ -149,6 +149,7 @@ const experiences = [
       "Produceing high-quality images and footage of construction sites and developments, adhering to client specifications.",
       "Providing detailed visual documentation for stakeholders such as developers and architects, utilizing technical skills and precision.",
     ],
+    link: "https://www.instagram.com/skyalign/"
   },
   {
     title: "Mobile Expert",

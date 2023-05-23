@@ -225,7 +225,7 @@ const projects = [
   {
     name: "JobPlay",
     description:
-      "Responsive web application that gamifies the job search and skill development process, allowing users to track job applications, visualize career progression, and expand professional networks.",
+      "MERN stack application that gamifies the job search and skill development process, allowing users to track job applications, visualize career progression, and expand professional networks.",
     tags: [
       {
         name: "react",

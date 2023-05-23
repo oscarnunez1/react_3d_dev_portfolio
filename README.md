@@ -2,7 +2,7 @@
 
 ![Portfolio](src/assets/portfolio.png)
 
-Welcome to my personal developer portfolio! This project is a showcase of my coding skills, work experience, and the exciting projects I've worked on. It's designed with an interactive and dynamic 3D interface, making it a unique and engaging way to present my professional journey.
+Welcome to my portfolio! This dynamic platform serves as a window into my professional journey, showcasing my coding prowess, diverse work experiences, and the innovative projects that I've been privileged to contribute to. With a design that comes alive through its 3D interface, this portfolio stands as a testament to my unique approach to problem-solving and my continuous pursuit of learning and growth in the field of software development
 
 ## Key Technologies Used
 

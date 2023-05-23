@@ -57,13 +57,13 @@ const ComputersCanvas = () => {
       className='mt-5'
     >
       <Suspense fallback={<CanvasLoader />}>
-      {/* {!isMobile && (
+      {!isMobile && (
         <OrbitControls 
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-      )} */}
+      )}
         <Computers isMobile={isMobile} />
       </Suspense>
 

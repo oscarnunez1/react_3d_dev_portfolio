@@ -23,8 +23,8 @@ const Contact = () => {
     setloading(true)
 
     emailjs.send(
-      'service_aryo2ab',
-      'template_o2kdkgm',
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Oscar',
@@ -32,7 +32,7 @@ const Contact = () => {
         to_email: 'oscar.nunezcaba@gmail.com',
         message: form.message
       },
-      'chFT0ArMtIG3ZXEYa'
+      process.env.REACT_APP_EMAILJS_USER_ID
     )
     .then(() => {
       setloading(false)

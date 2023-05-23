@@ -71,6 +71,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
 
 const Projects = () => {
+  if (!projects || !Array.isArray(projects)) {
+    return <div>Error: Projects data is not available or in an incorrect format.</div>;
+  }
+  
   return (
     <>
       <motion.div  variants={textVariant()}>

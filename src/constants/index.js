@@ -308,8 +308,8 @@ const projects = [
       },
     ],
     image: tictacts,
-    source_code_link: "https://github.com/CaptMerica/pix-front-end",
-    demo_link: "https://pix-tritonic.netlify.app/"
+    source_code_link: "https://github.com/oscarnunez1/tic-tac-ts-lab",
+    demo_link: "https://tic-tac-toe-types.netlify.app/"
   },
 ];
 

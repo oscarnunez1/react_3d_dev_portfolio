@@ -196,7 +196,7 @@ const testimonials = [
     name: "Patrick Mazara",
     designation: "Software Engineering Fellow",
     company: "General Assembly",
-    image: "https://media.licdn.com/dms/image/D4D35AQErEqDAQR8G5g/profile-framedphoto-shrink_400_400/0/1682018631936?e=1685131200&v=beta&t=KXAiXOlg4-nDxijzbbIb64S1ygbVm33ywLRPAIEa5rs",
+    image: "https://media.licdn.com/dms/image/D4D03AQH4N5K9UwbAMA/profile-displayphoto-shrink_400_400/0/1682018630660?e=1691020800&v=beta&t=Coi2rgvZ2zp-GYdwALzLGR-GKuGsWlGhJJ5NyRtYgtg",
   },
 ];
 

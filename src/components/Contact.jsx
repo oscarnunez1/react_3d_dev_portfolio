@@ -22,9 +22,9 @@ const Contact = () => {
     e.preventDefault()
     setloading(true)
 
-    console.log("SERVICE", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-    console.log("TEMPLATE", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-    console.log("PUBLIC", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+    console.log("SERVICE KEY", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+    console.log("TEMPLAT KEY", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+    console.log("PUBLIC KEY", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
 
 
     emailjs.send(

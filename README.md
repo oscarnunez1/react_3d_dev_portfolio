@@ -23,3 +23,5 @@ Here are some of the key aspects of my portfolio that you'll discover:
 Thank you for visiting my portfolio. I hope you enjoy exploring my projects and learning about my professional experience and skills. Please feel free to reach out if you have any questions, or if you're interested in collaborating on a project!
 
 This portfolio design and the technologies used are inspired by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery). Their content has provided valuable guidance and insights throughout the development of this project.
+
+Gaming Desktop PC: This work is based on "Gaming Desktop PC" (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

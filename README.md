@@ -24,4 +24,4 @@ Thank you for visiting my portfolio. I hope you enjoy exploring my projects and 
 
 This portfolio design and the technologies used are inspired by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery). Their content has provided valuable guidance and insights throughout the development of this project.
 
-Gaming Desktop PC: This work is based on "Gaming Desktop PC" (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+"Gaming Desktop PC" (https://skfb.ly/or88C) by Yolala1232 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

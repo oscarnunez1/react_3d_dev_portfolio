@@ -13,7 +13,7 @@ const Tech = ({ index }) => {
           Languages, Frameworks, & Libraries
         </p>
         <h2 className={styles.sectionHeadText}>
-          Technologies.
+          Tech Stack.
         </h2>
       </motion.div>
 
